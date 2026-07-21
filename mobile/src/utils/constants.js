@@ -45,9 +45,7 @@ if (typeof __DEV__ !== "undefined" && __DEV__) {
 
 /** Firebase client config (same project as backend Admin SDK). */
 export const FIREBASE_CONFIG = {
-    apiKey:
-        process.env.EXPO_PUBLIC_FIREBASE_API_KEY ??
-        "AIzaSyDpunmqWK_uazdNOOOOr_EtEHv7cCIiVpE",
+    apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY ?? "",
     authDomain:
         process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN ?? "wuloye.firebaseapp.com",
     projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID ?? "wuloye",
